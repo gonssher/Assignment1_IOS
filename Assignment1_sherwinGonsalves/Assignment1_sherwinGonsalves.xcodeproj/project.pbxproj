@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B0DCE6A23E5D5E100A24D49 /* buttonsubmit.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B0DCE6923E5D5E100A24D49 /* buttonsubmit.png */; };
+		3B0DCE6C23E5D8F400A24D49 /* submit.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B0DCE6B23E5D8F400A24D49 /* submit.png */; };
+		3B0DCE6E23E5DAC700A24D49 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B0DCE6D23E5DAC700A24D49 /* button.png */; };
+		3B22A743243644F600895A1C /* facebook-ios-sdk-master (2).zip in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B22A742243644F600895A1C /* facebook-ios-sdk-master (2).zip */; };
+		3B231A91243665C000892E96 /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = 3B231A90243665C000892E96 /* FacebookShare */; };
+		3B231A93243665C000892E96 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3B231A92243665C000892E96 /* FacebookCore */; };
+		3B231A95243665C000892E96 /* FacebookGamingServices in Frameworks */ = {isa = PBXBuildFile; productRef = 3B231A94243665C000892E96 /* FacebookGamingServices */; };
+		3B231A97243665C000892E96 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 3B231A96243665C000892E96 /* FacebookLogin */; };
+		3B231A9A2436698E00892E96 /* FacebookLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B231A992436698E00892E96 /* FacebookLogin.m */; };
+		3B9E217E23DF539700E58481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E217D23DF539700E58481 /* AppDelegate.swift */; };
+		3B9E218023DF539700E58481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E217F23DF539700E58481 /* ViewController.swift */; };
+		3B9E218323DF539700E58481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9E218123DF539700E58481 /* Main.storyboard */; };
+		3B9E218523DF539800E58481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9E218423DF539800E58481 /* Assets.xcassets */; };
+		3B9E218823DF539800E58481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9E218623DF539800E58481 /* LaunchScreen.storyboard */; };
+		3B9E21B523DFAA9200E58481 /* png-background-studio-2019.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B9E21B423DFAA9200E58481 /* png-background-studio-2019.jpg */; };
+		3B9E21B823DFB2F200E58481 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E21B623DFB16100E58481 /* RegisterViewController.swift */; };
+		3B9E21BF23DFBBC600E58481 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9E21BE23DFBBC600E58481 /* WebKit.framework */; };
+		3B9E21C123DFDE3400E58481 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E21C023DFDE3400E58481 /* InternetViewController.swift */; };
+		3B9E21C323DFEBAD00E58481 /* imgbin-green-rectangle-font-green-toggle-button-jp66r9GcayBGqYrcCBfz4CS9N.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B9E21C223DFEBAD00E58481 /* imgbin-green-rectangle-font-green-toggle-button-jp66r9GcayBGqYrcCBfz4CS9N.jpg */; };
+		3B9E21C523DFEFAA00E58481 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E21C423DFEFAA00E58481 /* AboutViewController.swift */; };
+		3B9E21C723DFFC7200E58481 /* backimagerect.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3B9E21C623DFFC7200E58481 /* backimagerect.jpeg */; };
+		3BB04150242B9E7A005759F6 /* DataEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB0414F242B9E7A005759F6 /* DataEntryViewController.swift */; };
+		3BB0415F242BDEDF005759F6 /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB0415B242BDEDE005759F6 /* bus.png */; };
+		3BB04160242BDEDF005759F6 /* aircraft.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BB0415C242BDEDE005759F6 /* aircraft.jpg */; };
+		3BB04161242BDEDF005759F6 /* aeroplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB0415D242BDEDE005759F6 /* aeroplane.png */; };
+		3BB04162242BDEDF005759F6 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB0415E242BDEDF005759F6 /* car.png */; };
+		3BB04166242C3BD7005759F6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB04165242C3BD7005759F6 /* User.swift */; };
+		3BB0416C242CE3A7005759F6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB0416B242CE3A7005759F6 /* TableViewController.swift */; };
+		3BB0416E242CE3EC005759F6 /* SiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB0416D242CE3EC005759F6 /* SiteCell.swift */; };
+		3BB04170242CFF73005759F6 /* Assignment.db in Resources */ = {isa = PBXBuildFile; fileRef = 3BB0416F242CFF73005759F6 /* Assignment.db */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B0DCE6923E5D5E100A24D49 /* buttonsubmit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonsubmit.png; sourceTree = "<group>"; };
+		3B0DCE6B23E5D8F400A24D49 /* submit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submit.png; sourceTree = "<group>"; };
+		3B0DCE6D23E5DAC700A24D49 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		3B22A742243644F600895A1C /* facebook-ios-sdk-master (2).zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "facebook-ios-sdk-master (2).zip"; path = "../../../Downloads/facebook-ios-sdk-master (2).zip"; sourceTree = "<group>"; };
+		3B231A982436698E00892E96 /* Assignment1_sherwinGonsalves-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Assignment1_sherwinGonsalves-Bridging-Header.h"; sourceTree = "<group>"; };
+		3B231A992436698E00892E96 /* FacebookLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookLogin.m; sourceTree = "<group>"; };
+		3B9E217A23DF539700E58481 /* Assignment1_sherwinGonsalves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment1_sherwinGonsalves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B9E217D23DF539700E58481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B9E217F23DF539700E58481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B9E218223DF539700E58481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B9E218423DF539800E58481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B9E218723DF539800E58481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B9E218923DF539800E58481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B9E21B423DFAA9200E58481 /* png-background-studio-2019.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "png-background-studio-2019.jpg"; sourceTree = "<group>"; };
+		3B9E21B623DFB16100E58481 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3B9E21BE23DFBBC600E58481 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3B9E21C023DFDE3400E58481 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		3B9E21C223DFEBAD00E58481 /* imgbin-green-rectangle-font-green-toggle-button-jp66r9GcayBGqYrcCBfz4CS9N.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgbin-green-rectangle-font-green-toggle-button-jp66r9GcayBGqYrcCBfz4CS9N.jpg"; sourceTree = "<group>"; };
+		3B9E21C423DFEFAA00E58481 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		3B9E21C623DFFC7200E58481 /* backimagerect.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backimagerect.jpeg; sourceTree = "<group>"; };
+		3BB0414F242B9E7A005759F6 /* DataEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataEntryViewController.swift; sourceTree = "<group>"; };
+		3BB0415B242BDEDE005759F6 /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus.png; sourceTree = "<group>"; };
+		3BB0415C242BDEDE005759F6 /* aircraft.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aircraft.jpg; sourceTree = "<group>"; };
+		3BB0415D242BDEDE005759F6 /* aeroplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aeroplane.png; sourceTree = "<group>"; };
+		3BB0415E242BDEDF005759F6 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		3BB04165242C3BD7005759F6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3BB04167242C3EE3005759F6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		3BB04168242C3EE3005759F6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3BB0416B242CE3A7005759F6 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3BB0416D242CE3EC005759F6 /* SiteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteCell.swift; sourceTree = "<group>"; };
+		3BB0416F242CFF73005759F6 /* Assignment.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Assignment.db; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B9E217723DF539700E58481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B22A743243644F600895A1C /* facebook-ios-sdk-master (2).zip in Frameworks */,
+				3B9E21BF23DFBBC600E58481 /* WebKit.framework in Frameworks */,
+				3B231A97243665C000892E96 /* FacebookLogin in Frameworks */,
+				3B231A91243665C000892E96 /* FacebookShare in Frameworks */,
+				3B231A95243665C000892E96 /* FacebookGamingServices in Frameworks */,
+				3B231A93243665C000892E96 /* FacebookCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B9E217123DF539700E58481 = {
+			isa = PBXGroup;
+			children = (
+				3BB0414E242B9E1B005759F6 /* Database */,
+				3B9E217C23DF539700E58481 /* Assignment1_sherwinGonsalves */,
+				3B9E217B23DF539700E58481 /* Products */,
+				3B9E21BD23DFBBC500E58481 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B9E217B23DF539700E58481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B9E217A23DF539700E58481 /* Assignment1_sherwinGonsalves.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B9E217C23DF539700E58481 /* Assignment1_sherwinGonsalves */ = {
+			isa = PBXGroup;
+			children = (
+				3B9E21B323DFA8B200E58481 /* Images */,
+				3B9E21B223DFA8A800E58481 /* View Controller */,
+				3B9E21B123DFA89C00E58481 /* Storyboard */,
+				3B9E21B023DFA87600E58481 /* Classes */,
+				3B9E218423DF539800E58481 /* Assets.xcassets */,
+				3B9E218923DF539800E58481 /* Info.plist */,
+			);
+			path = Assignment1_sherwinGonsalves;
+			sourceTree = "<group>";
+		};
+		3B9E21B023DFA87600E58481 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3BB0416D242CE3EC005759F6 /* SiteCell.swift */,
+				3B9E217D23DF539700E58481 /* AppDelegate.swift */,
+				3BB04165242C3BD7005759F6 /* User.swift */,
+				3B231A992436698E00892E96 /* FacebookLogin.m */,
+				3B231A982436698E00892E96 /* Assignment1_sherwinGonsalves-Bridging-Header.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3B9E21B123DFA89C00E58481 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3B9E218123DF539700E58481 /* Main.storyboard */,
+				3B9E218623DF539800E58481 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		3B9E21B223DFA8A800E58481 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B9E217F23DF539700E58481 /* ViewController.swift */,
+				3B9E21B623DFB16100E58481 /* RegisterViewController.swift */,
+				3B9E21C023DFDE3400E58481 /* InternetViewController.swift */,
+				3B9E21C423DFEFAA00E58481 /* AboutViewController.swift */,
+				3BB0414F242B9E7A005759F6 /* DataEntryViewController.swift */,
+				3BB0416B242CE3A7005759F6 /* TableViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		3B9E21B323DFA8B200E58481 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3BB0415D242BDEDE005759F6 /* aeroplane.png */,
+				3BB0415C242BDEDE005759F6 /* aircraft.jpg */,
+				3BB0415B242BDEDE005759F6 /* bus.png */,
+				3BB0415E242BDEDF005759F6 /* car.png */,
+				3B0DCE6D23E5DAC700A24D49 /* button.png */,
+				3B0DCE6B23E5D8F400A24D49 /* submit.png */,
+				3B0DCE6923E5D5E100A24D49 /* buttonsubmit.png */,
+				3B9E21C623DFFC7200E58481 /* backimagerect.jpeg */,
+				3B9E21C223DFEBAD00E58481 /* imgbin-green-rectangle-font-green-toggle-button-jp66r9GcayBGqYrcCBfz4CS9N.jpg */,
+				3B9E21B423DFAA9200E58481 /* png-background-studio-2019.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3B9E21BD23DFBBC500E58481 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B22A742243644F600895A1C /* facebook-ios-sdk-master (2).zip */,
+				3BB04167242C3EE3005759F6 /* libsqlite3.0.tbd */,
+				3BB04168242C3EE3005759F6 /* libsqlite3.tbd */,
+				3B9E21BE23DFBBC600E58481 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BB0414E242B9E1B005759F6 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				3BB0416F242CFF73005759F6 /* Assignment.db */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B9E217923DF539700E58481 /* Assignment1_sherwinGonsalves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B9E218C23DF539800E58481 /* Build configuration list for PBXNativeTarget "Assignment1_sherwinGonsalves" */;
+			buildPhases = (
+				3B9E217623DF539700E58481 /* Sources */,
+				3B9E217723DF539700E58481 /* Frameworks */,
+				3B9E217823DF539700E58481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Assignment1_sherwinGonsalves;
+			packageProductDependencies = (
+				3B231A90243665C000892E96 /* FacebookShare */,
+				3B231A92243665C000892E96 /* FacebookCore */,
+				3B231A94243665C000892E96 /* FacebookGamingServices */,
+				3B231A96243665C000892E96 /* FacebookLogin */,
+			);
+			productName = Assignment1_sherwinGonsalves;
+			productReference = 3B9E217A23DF539700E58481 /* Assignment1_sherwinGonsalves.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B9E217223DF539700E58481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Sherwin;
+				TargetAttributes = {
+					3B9E217923DF539700E58481 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1140;
+					};
+				};
+			};
+			buildConfigurationList = 3B9E217523DF539700E58481 /* Build configuration list for PBXProject "Assignment1_sherwinGonsalves" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B9E217123DF539700E58481;
+			packageReferences = (
+				3B231A8F243665C000892E96 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
+			productRefGroup = 3B9E217B23DF539700E58481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B9E217923DF539700E58481 /* Assignment1_sherwinGonsalves */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B9E217823DF539700E58481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB0415F242BDEDF005759F6 /* bus.png in Resources */,
+				3B9E21C323DFEBAD00E58481 /* imgbin-green-rectangle-font-green-toggle-button-jp66r9GcayBGqYrcCBfz4CS9N.jpg in Resources */,
+				3B0DCE6C23E5D8F400A24D49 /* submit.png in Resources */,
+				3B9E218823DF539800E58481 /* LaunchScreen.storyboard in Resources */,
+				3BB04170242CFF73005759F6 /* Assignment.db in Resources */,
+				3BB04160242BDEDF005759F6 /* aircraft.jpg in Resources */,
+				3B9E21C723DFFC7200E58481 /* backimagerect.jpeg in Resources */,
+				3BB04162242BDEDF005759F6 /* car.png in Resources */,
+				3B9E21B523DFAA9200E58481 /* png-background-studio-2019.jpg in Resources */,
+				3BB04161242BDEDF005759F6 /* aeroplane.png in Resources */,
+				3B0DCE6A23E5D5E100A24D49 /* buttonsubmit.png in Resources */,
+				3B9E218523DF539800E58481 /* Assets.xcassets in Resources */,
+				3B0DCE6E23E5DAC700A24D49 /* button.png in Resources */,
+				3B9E218323DF539700E58481 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B9E217623DF539700E58481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9E21B823DFB2F200E58481 /* RegisterViewController.swift in Sources */,
+				3B231A9A2436698E00892E96 /* FacebookLogin.m in Sources */,
+				3BB04150242B9E7A005759F6 /* DataEntryViewController.swift in Sources */,
+				3B9E218023DF539700E58481 /* ViewController.swift in Sources */,
+				3BB0416C242CE3A7005759F6 /* TableViewController.swift in Sources */,
+				3BB0416E242CE3EC005759F6 /* SiteCell.swift in Sources */,
+				3B9E217E23DF539700E58481 /* AppDelegate.swift in Sources */,
+				3B9E21C523DFEFAA00E58481 /* AboutViewController.swift in Sources */,
+				3B9E21C123DFDE3400E58481 /* InternetViewController.swift in Sources */,
+				3BB04166242C3BD7005759F6 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B9E218123DF539700E58481 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B9E218223DF539700E58481 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B9E218623DF539800E58481 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B9E218723DF539800E58481 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B9E218A23DF539800E58481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B9E218B23DF539800E58481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B9E218D23DF539800E58481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Assignment1_sherwinGonsalves/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sherwin.Assignment1-sherwinGonsalves";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Assignment1_sherwinGonsalves/Classes/Assignment1_sherwinGonsalves-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B9E218E23DF539800E58481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Assignment1_sherwinGonsalves/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sherwin.Assignment1-sherwinGonsalves";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Assignment1_sherwinGonsalves/Classes/Assignment1_sherwinGonsalves-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B9E217523DF539700E58481 /* Build configuration list for PBXProject "Assignment1_sherwinGonsalves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9E218A23DF539800E58481 /* Debug */,
+				3B9E218B23DF539800E58481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B9E218C23DF539800E58481 /* Build configuration list for PBXNativeTarget "Assignment1_sherwinGonsalves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9E218D23DF539800E58481 /* Debug */,
+				3B9E218E23DF539800E58481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3B231A8F243665C000892E96 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B231A90243665C000892E96 /* FacebookShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B231A8F243665C000892E96 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookShare;
+		};
+		3B231A92243665C000892E96 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B231A8F243665C000892E96 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		3B231A94243665C000892E96 /* FacebookGamingServices */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B231A8F243665C000892E96 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookGamingServices;
+		};
+		3B231A96243665C000892E96 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B231A8F243665C000892E96 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3B9E217223DF539700E58481 /* Project object */;
+}
